@@ -1,0 +1,50 @@
+*
+{
+    box-sizing: border-box;
+}
+.content
+{
+    width: 250px;
+    margin: auto;
+    background-color:#f6f6f6 ;
+    padding: 20px;
+}
+.content .ct_input{
+    margin-bottom: 25px;
+    position: relative;
+}
+.content .ct_input input
+{
+       width: 100%;
+       padding: 5px;
+       border: 0;
+       border-bottom: 2px solid rgba(37, 37, 37, 0.445);
+       background-color: transparent;
+       
+
+}
+
+.content .ct_input label
+ {
+     top: 5px;
+     left: 10px ;
+     position: absolute;
+     transition: 0.5s;
+
+}
+.content .ct_input input:focus ~ label ,
+.content .ct_input input:valid ~ label
+{
+    top:-20px;
+    color: #080;
+}
+
+
+
+.content input[type=submit]
+{
+    width: 100%;
+    background-color: #ccc;
+    border: 0;
+    padding: 10px;
+}
