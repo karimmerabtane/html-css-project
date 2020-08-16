@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+nav
+{
+    background-color: #ddd; 
+}
+
+nav ul
+{
+   list-style: none;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+nav ul li:hover 
+{
+    background-color: #777;
+    cursor: pointer;
+}
+
+nav a 
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: #ddd;padding: 15px;
+    display: none;
+
+}
+
+@media(max-width:600px)
+{
+    nav ul 
+    {
+        display: none;
+    }
+    nav ul li {
+        display: block;
+    }
+    nav a
+    {
+        display: block;
+    }
+
+}
