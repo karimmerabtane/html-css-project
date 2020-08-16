@@ -1,0 +1,55 @@
+body
+{
+    background-color: #ddd;
+}
+ul
+{
+list-style-type: none;
+width: 600px;
+margin: auto;
+}
+
+ul li 
+{
+    float: left;
+    width: 120px;
+    background-color: rgb(55, 241, 70);
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 2px 3px 4px #000;
+    position: relative;
+}
+
+
+ul li a 
+{
+    color: #fff ;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+ul li a:hover
+{
+    background-color: #333;
+    color:rgb(47, 173, 21);
+}
+
+ul ul 
+{
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    display: none;
+}
+ul li:hover > ul 
+{
+    display: block;
+}
+ul ul ul 
+{
+    margin-left:122px ;
+    position: absolute;
+    top: 0;
+}
