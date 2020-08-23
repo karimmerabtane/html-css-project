@@ -1,0 +1,64 @@
+body
+{
+    background-color: #ff5964;
+    text-transform: uppercase;
+    font-family: 'lucida sans';
+    overflow: hidden;
+    
+}
+.layer
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.6s ;
+    transform:  scale(1) rotateY(0);
+
+}
+nav ul
+{ 
+    padding-left: 60%;
+    font-size: large;
+    line-height: 2;
+}
+nav ul li 
+{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav ul li:hover 
+{
+   background-color: aqua;
+   border-radius: 5px;
+   
+}
+nav ul li:hover a 
+{
+   color: rgb(25, 3, 122); 
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color: #fff
+}
+.show
+{
+    background-color: #fffbc1;
+    
+}
+h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+body:hover .show
+{
+    transform: perspective(800px) scale(0.6) rotateY(25deg);
+}

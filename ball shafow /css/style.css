@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+  
+}
+.content
+{
+    
+    width:285px ;
+    height: 420px;
+    margin:auto;
+  
+}
+.ball
+{
+    position: relative;
+    background: url('../image/ball.jpeg');
+    background-size: cover ;
+    top: 0;
+    margin-left: -15px;
+    width: 285px;
+    height: 320px;
+    animation:  translation 2s ease-in-out infinite;
+}
+
+@keyframes translation
+{
+        50%{top:100px}
+        100%{top:0}
+} 
+
+.ball_shadow
+{
+   
+    height: 18px;
+    background-color:#999;
+    border-radius: 100%;
+    position: relative;
+    top: 100px;
+    opacity: .1;
+    animation: shadow 2s ease-in-out infinite;
+
+}
+
+@keyframes shadow 
+{
+    50%{ margin: 0 20% 0 20% ; opacity: .9;}
+    100%{ margin: 0 0 0 0 ; opacity: .1;}
+}

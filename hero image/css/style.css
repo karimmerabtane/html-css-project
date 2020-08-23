@@ -1,0 +1,24 @@
+body , html
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.hero_image
+{
+    background: url('../image/5.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 50%;
+    position: relative;
+}
+.hero_image .hero_text
+{
+    color: antiquewhite;
+    margin: auto;
+    width:30%;
+    top: 25%;
+    left: 50%;
+    position: absolute;
+   
+}

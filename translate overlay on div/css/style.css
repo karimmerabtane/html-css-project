@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+div
+{
+    width:25% ;
+    height: 300px ;
+    float: left;
+    border: 1px solid #fff;
+    background-color: blueviolet;
+}
+p
+{
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: rgba(0,0,0,0.5);
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+
+}
+.one:hover ~p 
+{
+    margin-left: 0;
+}
+.tow:hover ~p {
+    margin-left: 25%;
+}
+.there:hover ~p {
+    margin-left: 50%;
+}
+.for:hover ~p {
+    margin-left: 75%;
+}

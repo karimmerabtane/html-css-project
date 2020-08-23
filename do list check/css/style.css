@@ -1,0 +1,48 @@
+body
+{
+    background-color: rgb(100, 98, 98);
+    
+}
+
+.content
+{
+    background-color: rgb(184, 138, 106);
+    width: 400px;
+    margin: auto;
+    position: relative;
+    padding: 15px;
+    top: 50px;
+}
+.content .list .checkbox
+{ 
+    float: left;
+    margin-top: 15px;
+    margin-right: 30px;
+   
+}
+.content .list .checkbox:checked + p
+{
+    text-decoration: line-through rgb(214, 117, 117); 
+    background-color:rgb(170, 113, 73);
+}
+.content .list p 
+{
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+   
+}
+.add_list button 
+{
+ width: 310px;
+ height: 30px;
+}
+.add_list #input
+{
+    width: 300px;
+    height: 30px;
+}
+
+
+
